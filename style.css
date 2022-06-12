@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@700&display=swap");
+
+body {
+  background-color: rgb(255, 0, 0);
+  font-family: "Spline Sans Mono", monospace;
+}
+
+.navbar {
+  background-color: rgb(255, 0, 0);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 30px;
+  height: 60px;
+  border: 1px solid;
+  box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.48);
+}
+
+.navbar .logo {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: black;
+  transition: 1.5s;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header p {
+  margin-left: 20px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+  margin: 15px;
+  border-radius: 5%;
+}
+
+.header .container {
+  display: flex;
+  box-sizing: border-box;
+  margin: 5px;
+  border: 10px;
+  padding: 30px;
+}
+
+.boxes .container {
+  display: flex;
+}
+
+.boxes .box {
+  border: 1px solid;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+.box {
+  margin: 20px 10px;
+  border-radius: 5%;
+  padding: 20px 10px;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+
+  .sec .container img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.sec {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin: 5px;
+}
+
+.sec .container {
+  display: flex;
+  border: 2px solid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec .container img {
+  max-width: 250px;
+  width: 100%;
+  margin: 10px;
+}
+
+.sec-1 .container-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.container-1 .container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-2 {
+  margin: 5%;
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+.container-2 h2 {
+  display: inline-block;
+  width: 50%;
+}
+
+.container-2 input {
+  padding: 8px;
+  border-radius: 5%;
+}
+
+.container-2 button {
+  align-self: flex-end;
+}
