@@ -18,7 +18,7 @@ body {
 .navbar .logo {
   color: white;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 
 ul {
@@ -98,6 +98,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .navbar .container {
+    display: flex;
+    flex-direction: row;
+  }
   .header .container {
     flex-direction: column;
     padding-top: 20px;
